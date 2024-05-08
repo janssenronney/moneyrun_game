@@ -1,9 +1,8 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
+// Subtrai o valor absoluto da variável global 'velocidade' da coordenada x do objeto atual
 x -= abs(global.velocidade);
 
-//destruir obstaculos após a sua exibição
-if x <= -100{
-	instance_destroy();
+// Verifica se a coordenada x do objeto atual é menor ou igual a -100
+if x <= -100 {
+    // Se a coordenada x for menor ou igual a -100, destrói o objeto atual
+    instance_destroy();
 }

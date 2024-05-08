@@ -35,16 +35,19 @@
   "name":"MONEY_RUN",
   "resources":[
     {"id":{"name":"fnt_normal","path":"fonts/fnt_normal/fnt_normal.yy",},},
+    {"id":{"name":"fnt_interface","path":"fonts/fnt_interface/fnt_interface.yy",},},
     {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
+    {"id":{"name":"obj_interface","path":"objects/obj_interface/obj_interface.yy",},},
+    {"id":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},},
     {"id":{"name":"obj_nuvem","path":"objects/obj_nuvem/obj_nuvem.yy",},},
     {"id":{"name":"obj_obstaculo","path":"objects/obj_obstaculo/obj_obstaculo.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"id":{"name":"botao","path":"scripts/botao/botao.yy",},},
     {"id":{"name":"spr_bloco","path":"sprites/spr_bloco/spr_bloco.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
+    {"id":{"name":"spr_moeda","path":"sprites/spr_moeda/spr_moeda.yy",},},
     {"id":{"name":"spr_nuvem","path":"sprites/spr_nuvem/spr_nuvem.yy",},},
     {"id":{"name":"spr_obstaculo","path":"sprites/spr_obstaculo/spr_obstaculo.yy",},},
     {"id":{"name":"spr_personagem_morto","path":"sprites/spr_personagem_morto/spr_personagem_morto.yy",},},
@@ -56,7 +59,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

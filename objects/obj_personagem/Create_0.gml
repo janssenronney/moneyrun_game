@@ -1,10 +1,7 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-#region
-cima = -1; //pulo
+global.moeda = 0;
 
-v_velocidade = 0; //velocidade vertical
-gravidade = 0.4; //derrubar o personagem
-pulo = -8; //altura do pulo
-caindo = false; //verificar queda;
-#endregion
+cima = -1; // Direção vertical
+v_velocidade = 0; // Velocidade vertical inicial
+gravidade = 0.4; // Valor da constante de gravidade
+pulo = -7.5; // Altura do salto
+caindo = false; // Queda do personagem
