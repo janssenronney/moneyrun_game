@@ -1,2 +1,1 @@
-// Move o objeto na direção da esquerda com base na velocidade global, usando o valor absoluto da velocidade
-x -= abs(global.velocidade);
+x -= abs(global.velocidade); //move o objeto para a esquerda na velocidade global

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_interface",
+  "%Name":"obj_pontuacao",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_interface",
+  "name":"obj_pontuacao",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

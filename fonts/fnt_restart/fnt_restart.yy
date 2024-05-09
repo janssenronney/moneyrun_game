@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_normal",
+  "%Name":"fnt_restart",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":24,
@@ -112,7 +112,7 @@
   "last":0,
   "lineHeight":24,
   "maintainGms1Font":false,
-  "name":"fnt_normal",
+  "name":"fnt_restart",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

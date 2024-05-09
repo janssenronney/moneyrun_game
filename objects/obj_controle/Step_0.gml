@@ -1,14 +1,11 @@
-// Verifica se o personagem não está morto
-if global.morto == false {
-    // Se o personagem não está morto, diminui a velocidade global em 1/600 (provavelmente para simular um desaceleramento)
+if global.morto == false { //inicio da movimentação
+    
     global.velocidade -= 1/600;
+	global.distancia += 1/6;
     
-    // Configura a velocidade horizontal da camada "Background" para a velocidade global
-    layer_hspeed("Background", global.velocidade);
-} else {
-    // Se o personagem está morto, define a velocidade global como 0
+    layer_hspeed("Background", global.velocidade); //velocidade horizontal
+	
+} else { //parada da movimentação
     global.velocidade = 0;
-    
-    // Configura a velocidade horizontal da camada "Background" como 0 (parando o movimento)
     layer_hspeed("Background", 0);
 }
