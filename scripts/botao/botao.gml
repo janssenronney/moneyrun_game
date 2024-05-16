@@ -23,7 +23,7 @@ function create_button(x, y, sprite){
         
         //se o botão esquerdo do mouse for pressionado, reinicia a sala
         if mouse_check_button_pressed(mb_left){
-            room_restart();
+            room_goto(sl_menu);
         }
     }else{
         balpha = .6; //define a transparência para um valor um pouco menor para dar uma sensação de hover
