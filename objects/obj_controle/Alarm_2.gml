@@ -1,7 +1,7 @@
 //criar mooedas
 if global.morto == false {
 	
-    var _yy = irandom_range(30, 90);
+    var _yy = irandom_range(40, 80);
     
 	instance_create_layer(room_width, _yy, "Instances", obj_moeda);
 
