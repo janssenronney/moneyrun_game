@@ -1,15 +1,14 @@
 {
   "$GMRoom":"",
-  "%Name":"Room1",
+  "%Name":"sl_jogo",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5DCD5368","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_D9A2010","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_5F7263AE","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7940E48F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5DCD5368","path":"rooms/sl_jogo/sl_jogo.yy",},
+    {"name":"inst_D9A2010","path":"rooms/sl_jogo/sl_jogo.yy",},
+    {"name":"inst_5F7263AE","path":"rooms/sl_jogo/sl_jogo.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -17,11 +16,10 @@
         {"$GMRInstance":"","%Name":"inst_5DCD5368","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DCD5368","objectId":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.0,"scaleY":1.28125,"x":160.5,"y":160.5,},
         {"$GMRInstance":"","%Name":"inst_D9A2010","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D9A2010","objectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":0.0,},
         {"$GMRInstance":"","%Name":"inst_5F7263AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F7263AE","objectId":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.49999997,"scaleY":0.49999997,"x":-10.0,"y":7.0,},
-        {"$GMRInstance":"","%Name":"inst_7940E48F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7940E48F","objectId":{"name":"obj_interface","path":"objects/obj_interface/obj_interface.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.49999997,"scaleY":0.49999997,"x":-10.0,"y":-2.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room1",
+  "name":"sl_jogo",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

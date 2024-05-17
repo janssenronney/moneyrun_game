@@ -1,5 +1,5 @@
 if (index == 0){
-	room_goto(Room1);
+	room_goto(sl_jogo);
 }else if (index == 1){
 	room_goto(sl_config);
 }else if (index == 2){

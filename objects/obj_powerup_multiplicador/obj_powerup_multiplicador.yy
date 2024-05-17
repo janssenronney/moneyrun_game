@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_powerup_time",
+  "%Name":"obj_powerup_multiplicador",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_powerup_time",
+  "name":"obj_powerup_multiplicador",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_powerup_time",
-    "path":"sprites/spr_powerup_time/spr_powerup_time.yy",
+    "name":"spr_powerup_multiplicador",
+    "path":"sprites/spr_powerup_multiplicador/spr_powerup_multiplicador.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -8,8 +8,14 @@ global.powerup_ima_criado = false;
 global.powerup_ima = false;
 global.tempo_powerup_ima = 0;
 
-//powerup time
-global.powerup_time_criado = false;
+//powerup tempo
+global.powerup_tempo = false;
+global.powerup_tempo_criado = false;
+
+//powerup multiplicador
+global.powerup_multiplicador_criado = false;
+global.powerup_multiplicador = false;
+global.tempo_powerup_multiplicador = 0;
 
 alarm[0] = 1; //obstáculos
 alarm[1] = 1; //nuvens
