@@ -1,23 +1,3 @@
-draw_set_font(fnt_menu);
-draw_set_color(c_white);
-var gui_largura = display_get_gui_width();
-var gui_altura = display_get_gui_height();
-x1 = gui_largura/2;
-y1 = (gui_altura/2) - 80;
-
-//funcao para escrever os nomes na tela
-for(var i = 0; i < op_max; i++){
-	draw_set_halign(fa_center);
-	
-	if (index == i) {
-		draw_set_color(c_yellow);
-	}else{
-		draw_set_color(c_white);
-	}
-	
-	
-	draw_text(x1, y1 + (40*i), opcoes[i]);
-
-}
-
-draw_set_font(-1);
+create_button(display_get_gui_width()/2, display_get_gui_height()/2, spr_play, button_play_action);
+create_button(600, 40, spr_config, button_config_action);
+create_button(40, 320, spr_credits, button_credits_action);
