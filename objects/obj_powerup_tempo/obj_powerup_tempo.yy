@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_powerup_tempo",
-    "path":"sprites/spr_powerup_tempo/spr_powerup_tempo.yy",
+    "name":"spr_powerup2",
+    "path":"sprites/spr_powerup2/spr_powerup2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

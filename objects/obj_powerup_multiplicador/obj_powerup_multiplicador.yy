@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_powerup_multiplicador",
-    "path":"sprites/spr_powerup_multiplicador/spr_powerup_multiplicador.yy",
+    "name":"spr_powerup4",
+    "path":"sprites/spr_powerup4/spr_powerup4.yy",
   },
   "spriteMaskId":null,
   "visible":true,

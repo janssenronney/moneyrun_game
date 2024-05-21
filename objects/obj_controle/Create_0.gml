@@ -18,5 +18,4 @@ global.powerup_multiplicador = false;
 global.tempo_powerup_multiplicador = 0;
 
 alarm[0] = 1; //obstáculos
-//alarm[1] = 1; //nuvens
 alarm[2] = 1; //moedas

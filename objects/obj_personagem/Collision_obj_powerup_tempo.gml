@@ -3,4 +3,4 @@ with(other) {
     instance_destroy();
 }
 
-global.velocidade = -2;
+global.velocidade = global.velocidade/2;

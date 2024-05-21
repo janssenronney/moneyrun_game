@@ -30,7 +30,7 @@ if global.morto == false{
 
     if place_meeting(x, y, obj_obstaculo) and global.morto == false{ //verifica se há colisão com um objeto de obstáculo
         global.morto = true; //define o personagem como morto
-        sprite_index = spr_personagem_morto; //altera o sprite do personagem para o sprite de morto
+        sprite_index = spr_player_dead; //altera o sprite do personagem para o sprite de morto
         //audio_play_sound(snd_colisao, 1, false); //toca um som de colisão
     }
 }

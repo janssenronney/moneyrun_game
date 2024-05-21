@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_powerup_ima",
-    "path":"sprites/spr_powerup_ima/spr_powerup_ima.yy",
+    "name":"spr_powerup1",
+    "path":"sprites/spr_powerup1/spr_powerup1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

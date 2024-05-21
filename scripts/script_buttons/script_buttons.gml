@@ -25,10 +25,13 @@ function button_credits_action() {
     room_goto(rm_credits);
 }
 
-function button_close_action(){
+function button_back_action(){
 	room_goto(rm_menu);
 
 }
 
+function button_close_action(){
+	room_goto(rm_menu);
+}
 
 draw_self();
