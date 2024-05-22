@@ -14,7 +14,7 @@ if global.morto == false { //inicio da movimentação
 //powerups
 if global.morto == false{
 	//powerup ímã
-	var _dist1 = irandom_range(100, 200);
+	var _dist1 = irandom_range(200, 300);
 	if global.distancia >= _dist1 && !global.powerup_ima_criado{ //criar powerup ímã
 		var _yy = irandom_range(40, 80);
 		instance_create_layer(room_width, _yy, "Instances", obj_powerup_ima);
@@ -31,7 +31,7 @@ if global.morto == false{
 	}
 	
 	//powerup tempo
-	var _dist2 = irandom_range(300, 500);
+	var _dist2 = irandom_range(600, 700);
 	if global.distancia >= 500 && !global.powerup_tempo_criado{ //criar powerup tempo
 		var _xx = irandom_range(40, 80);
 		instance_create_layer(room_width, _xx, "Instances", obj_powerup_tempo);
@@ -39,7 +39,7 @@ if global.morto == false{
 	}
 	
 	//powerup multiplicador
-	var _dist3 = irandom_range(50, 100);
+	var _dist3 = irandom_range(400, 500);
 	if global.distancia >= _dist3 && !global.powerup_multiplicador_criado{ //criar powerup multiplicador
 		var _zz = irandom_range(40, 80);
 		instance_create_layer(room_width, _zz, "Instances", obj_powerup_multiplicador);

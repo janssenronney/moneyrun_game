@@ -19,3 +19,4 @@ global.tempo_powerup_multiplicador = 0;
 
 alarm[0] = 1; //obstáculos
 alarm[2] = 1; //moedas
+

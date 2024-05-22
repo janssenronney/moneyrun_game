@@ -1,11 +1,10 @@
 draw_sprite(spr_player_avatar, 0, 1, 1)
-
 draw_set_font(fnt_pontuacao);
 draw_set_halign(fa_left); //configura o alinhamento horizontal
 draw_set_valign(fa_top);  //configura o alinhamento vertical
 draw_set_color(c_black);
-draw_text(55, 35, "Moedas: " + string(global.moeda));
-draw_text(55, 15, "Distância: " + string(floor(global.distancia))+ " M");
+draw_text(55, 15, string(floor(global.distancia))+"M");
+draw_text(55, 35, string(global.moeda));
 
 if global.morto == true {
     draw_set_font(fnt_game_over); 
