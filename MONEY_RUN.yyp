@@ -57,6 +57,7 @@
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"script_buttons","path":"scripts/script_buttons/script_buttons.yy",},},
+    {"id":{"name":"script_sounds","path":"scripts/script_sounds/script_sounds.yy",},},
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},},
     {"id":{"name":"snd_collision","path":"sounds/snd_collision/snd_collision.yy",},},
     {"id":{"name":"snd_game","path":"sounds/snd_game/snd_game.yy",},},
