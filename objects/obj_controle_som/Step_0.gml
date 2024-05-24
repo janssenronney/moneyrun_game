@@ -14,3 +14,4 @@ if (room == rm_jogo) {
 	    audio_play_sound(snd_menu, 1, true);
 	}
 }
+
