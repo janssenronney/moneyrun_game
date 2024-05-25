@@ -1,5 +1,14 @@
 if (global.morto == false) {
-    cima = keyboard_check_pressed(vk_space); // verifica se a tecla de espaço foi pressionada
+    // Verificação de toques na tela
+    var _toque = false;
+    for (var _i = 0; _i < 5; _i++) {
+        if (device_mouse_check_button_pressed(_i, mb_left)) {
+            _toque = true;
+            break; // Para evitar múltiplas detecções
+        }
+    }
+
+    cima = keyboard_check_pressed(vk_space) || _toque; // verifica se a tecla de espaço foi pressionada ou se houve um toque
 
     if (!place_meeting(x, y + 1, obj_bloco)) { // verifica se não há colisão com um objeto de bloco abaixo do personagem
         v_velocidade += gravidade; // aplica a gravidade aumentando a velocidade vertical
@@ -8,7 +17,7 @@ if (global.morto == false) {
             caindo = true;
         }
     } else { // se houver colisão com um objeto de bloco abaixo do personagem
-        if (cima) { // verifica se a tecla de espaço está pressionada
+        if (cima) { // verifica se a tecla de espaço está pressionada ou se houve um toque
             v_velocidade = pulo; // aplica um impulso vertical para cima (salto)
             audio_play_sound(snd_jump, 1, false); // toca um som de pulo
         } else {

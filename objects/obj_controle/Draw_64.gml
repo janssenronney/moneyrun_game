@@ -38,6 +38,6 @@ if global.morto {
 	}
 
     // Cria botões de retorno ao menu inicial e reinício do jogo
-	create_button_game(_center_x - 90, _center_y, spr_panel, spr_home, button_close_action);
-	create_button_game(_center_x + 90, _center_y, spr_panel, spr_restart, button_play_action);
+	create_button_game_devices(_center_x - 90, _center_y, spr_panel, spr_home, button_close_action);
+	create_button_game_devices(_center_x + 90, _center_y, spr_panel, spr_restart, button_play_action);
 }
