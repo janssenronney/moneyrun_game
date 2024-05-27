@@ -8,7 +8,6 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_powerup_ima","path":"objects/obj_powerup_ima/obj_powerup_ima.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_powerup_tempo","path":"objects/obj_powerup_tempo/obj_powerup_tempo.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_powerup_multiplicador","path":"objects/obj_powerup_multiplicador/obj_powerup_multiplicador.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_personagem",

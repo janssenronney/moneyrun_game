@@ -19,10 +19,12 @@ global.powerup_tempo_criado = false;    // Verifica se o powerup de tempo foi cr
 global.powerup_multiplicador_criado = false; // Verifica se o powerup de multiplicador foi criado
 global.powerup_multiplicador = false;        // Estado do powerup de multiplicador (ativo/inativo)
 global.tempo_powerup_multiplicador = 0;      // Tempo restante do powerup de multiplicador
+global.colisao_moeda = false;
 
 // Configuração dos alarmes
 alarm[0] = 1; // Alarme para criação de obstáculos
 alarm[2] = 1; // Alarme para criação de moedas
+alarm[1] = 1;
 
 // Carregar a melhor pontuação armazenada, se disponível
 if (file_exists("melhor_pontuacao.sav")) {

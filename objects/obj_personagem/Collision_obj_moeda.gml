@@ -11,5 +11,4 @@ if global.powerup_multiplicador == false{
 }else{
 	global.moeda += 10;
 	audio_play_sound(snd_coin, 1, false);
-	
 }
