@@ -24,7 +24,6 @@ global.colisao_moeda = false;
 // Configuração dos alarmes
 alarm[0] = 1; // Alarme para criação de obstáculos
 alarm[2] = 1; // Alarme para criação de moedas
-alarm[1] = 1;
 
 // Carregar a melhor pontuação armazenada, se disponível
 if (file_exists("melhor_pontuacao.sav")) {
