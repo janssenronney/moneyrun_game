@@ -31,3 +31,9 @@ if (file_exists("melhor_pontuacao.sav")) {
     global.melhor_pontuacao = real(file_text_read_string(_file));
     file_text_close(_file);
 }
+
+global.background_alterado = false;
+
+// Restaurar o background original
+layer_background_sprite(layer_background_get_id("Background"), spr_background);
+global.background_alterado = false;

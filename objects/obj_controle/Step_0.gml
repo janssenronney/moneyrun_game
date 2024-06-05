@@ -67,3 +67,7 @@ if global.morto == false { // início da movimentação
     }
 }
 
+if (global.moeda >= 10 && !global.background_alterado) {
+    layer_background_sprite(layer_background_get_id("Background"), spr_background_2);
+    global.background_alterado = true;
+}
